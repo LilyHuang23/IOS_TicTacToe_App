@@ -14,6 +14,8 @@
 		3761F76E2A14174A00CCC9E8 /* Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3761F76D2A14174A00CCC9E8 /* Tic_Tac_ToeTests.swift */; };
 		3761F7782A14174A00CCC9E8 /* Tic_Tac_ToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3761F7772A14174A00CCC9E8 /* Tic_Tac_ToeUITests.swift */; };
 		3761F77A2A14174A00CCC9E8 /* Tic_Tac_ToeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3761F7792A14174A00CCC9E8 /* Tic_Tac_ToeUITestsLaunchTests.swift */; };
+		3772C86A2A1554A6009BBED1 /* XOButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3772C8692A1554A6009BBED1 /* XOButton.swift */; };
+		3772C86C2A157DE7009BBED1 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3772C86B2A157DE7009BBED1 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		3761F7732A14174A00CCC9E8 /* Tic Tac ToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic Tac ToeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3761F7772A14174A00CCC9E8 /* Tic_Tac_ToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeUITests.swift; sourceTree = "<group>"; };
 		3761F7792A14174A00CCC9E8 /* Tic_Tac_ToeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3772C8692A1554A6009BBED1 /* XOButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XOButton.swift; sourceTree = "<group>"; };
+		3772C86B2A157DE7009BBED1 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				3761F75C2A14174800CCC9E8 /* Tic_Tac_ToeApp.swift */,
 				3761F75E2A14174800CCC9E8 /* ContentView.swift */,
+				3772C86B2A157DE7009BBED1 /* Utils.swift */,
+				3772C8692A1554A6009BBED1 /* XOButton.swift */,
 				3761F7602A14174A00CCC9E8 /* Assets.xcassets */,
 				3761F7622A14174A00CCC9E8 /* Preview Content */,
 			);
@@ -259,6 +265,8 @@
 			files = (
 				3761F75F2A14174800CCC9E8 /* ContentView.swift in Sources */,
 				3761F75D2A14174800CCC9E8 /* Tic_Tac_ToeApp.swift in Sources */,
+				3772C86A2A1554A6009BBED1 /* XOButton.swift in Sources */,
+				3772C86C2A157DE7009BBED1 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
